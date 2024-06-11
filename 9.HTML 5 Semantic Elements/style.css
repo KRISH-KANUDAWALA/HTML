@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(228, 229, 230);
+}
+header{
+    height: 5rem;
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    text-align: center;
+    font-size: 4rem;
+}
+nav{
+    height: 2rem;
+    background-color: rgb(88, 78, 64);
+}
+nav ul{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+nav ul li{
+    gap: 5rem;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: wheat;
+    list-style: none;
+    transition: 0.5s ease-in-out;
+}
+nav ul li:hover, a:hover{
+    background-color: aliceblue;
+}
+.div{
+    width: 97.5%;
+    border-radius: 10px;
+    height: 30rem;
+    background-color: rgb(255, 255, 255);
+    margin: 1rem;
+    display: flex;
+
+}
+.div p {
+    padding: 2rem 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+aside{
+    margin: 6rem 2rem;
+    width: 55rem;
+    height: 15rem;
+    background-color: rgb(248, 229, 229);
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+
+}
+aside ul{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+}
+aside ul li{
+    gap: 5rem;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    margin: 1rem;
+    margin-top: 2rem;
+
+}
+aside ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(124, 123, 123);
+    list-style: none;
+    transition: 0.5s ease-in-out;
+}
+aside ul li a:hover{
+    background-color: rgb(255, 196, 196);
+    color: white
+}
+aside:hover{
+    background-color: rgb(255, 196, 196);
+    color: white;
+    box-shadow: 0px 0px 10px 10px rgb(255, 196, 196);
+}
+footer{
+    background-color: black;
+    height: 10rem;
+    color: white;
+    border-top-right-radius: 10rem;
+}
+.contactinfo{
+    position: absolute;
+    right: 5rem;
+    display: block;
+    justify-content: center;
+    top: 43rem;
+    font-size: 1.5rem;  
+}
+.reserved p{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    font-size: 1.5rem;
+}
+.contactinfo h5{
+    padding: 0.2rem;  
+}
