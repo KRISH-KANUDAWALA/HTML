@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(220, 236, 250);
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    margin: 2rem;
+    border: 2px solid rgb(200, 241, 204);
+    padding: 2rem;
+    background-color: rgb(200, 241, 204);
+    transition: 0.5s ease-in-out;
+}
+.box:hover{
+    box-shadow: 0px 0px 20px 20px rgb(144, 248, 160);
+}
+.box ul ul p{
+    padding-right: 5rem;
+}
