@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 5rem;
+    background-color: aliceblue;
+}
+nav{
+    height: 2rem;
+    background-color: antiquewhite;
+}
+.div{
+    display: grid;
+    grid-template-columns: 17% 85%;
+    overflow: hidden;
+}
+main{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+aside{
+    width: 15rem;
+    height: 25rem;
+    /* padding: 5rem; */
+    border: 2px solid red;
+    background-color: salmon;
+}
+footer{
+    background-color: black;
+    height: 10rem;
+    margin-bottom: 0%;
+}
