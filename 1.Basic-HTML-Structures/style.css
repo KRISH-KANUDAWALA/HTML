@@ -1,0 +1,27 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	color: crimson;
+	text-align: center;
+	display: flex;
+	gap: auto;
+	justify-content: center;
+}
+p{
+	font-size: 20px;
+	margin-left: 10px;
+	display: flex;
+	gap: auto;
+	justify-content: left;
+}
+ul{
+	margin-left: 50px;
+	display: row;
+	gap: auto;
+	justify-content: left;
+}
+img{
+	margin-top: -17px;
+}
