@@ -1,0 +1,42 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-content: center;
+    background-color: rgb(228, 226, 226);
+}
+h1 {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    margin: 1rem;
+    width: 100%;
+}
+audio {
+    margin: 1rem;
+    width: 100%;
+}
+.audio {
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 1rem;
+}
+.audio p {
+    margin: 0.5rem;
+}
+.audio ul {
+    margin-left: 2rem;
+    padding: rem;
+}
+.audio ul li {
+    text-overflow: hidden;
+}
+.video {
+    margin: 1rem;
+}
